@@ -27,7 +27,7 @@ p{
 
 #titulo{
     color: black;
-    font-size: 40px;
+    font-size: 25px;
     text-decoration: underline black;
     display: inline-block;
        
@@ -43,7 +43,7 @@ display: none;
 .formulario .radio label{
     color: #0074D9;
     /*background: rgba(0, 0, 0, .1);*/
-    padding: 5px 15px 5px 51px;
+    padding: 5px 15px 5px 48px;
     display: inline-block;
     position: relative;
     border-radius: 8px;
