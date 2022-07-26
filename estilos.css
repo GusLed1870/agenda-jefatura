@@ -22,12 +22,16 @@ h2{
 
 p{
     font-size: 15px;
+    width: 450px;
 }
 
-h1{
+#titulo{
     color: black;
+    font-size: 30px;
+    text-decoration: underline black;
     display: inline-block;
-    font-size: 15px;
+       
+    width: 450px;
 }
 
 
