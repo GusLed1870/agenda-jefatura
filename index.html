@@ -7,12 +7,12 @@
 	<title>Nueva Agenda</title>
 </head>
 <body>
-	<h1 style="text-decoration: underline blue;">AGENDA JGM | Julio 2022</h1> <!-- esto hay que modificar para agosto
+	<h1 style="text-decoration: underline blue; text-align: left; padding-left: 300px">AGENDA JGM | Julio 2022</h1> <!-- esto hay que modificar para agosto
 
 	 -->
 	<div>
 		<form action="" class="formulario">
-			<div class="radio">
+			<div class="radio" style="background-color: white; width:600px; float: left;" >
 				<h2>Monitores (bajada realiza el 06/07/2022)</h2>
 					<h1 id="eti"><b>Monitor Subsidios</b></h1><br>
 				
@@ -22,7 +22,7 @@
 					<label for="Pendiente">Pendiente</label>
 					<input type="radio" name="informe" id="En Revisión">
 					<label for="En Revisión">En Revisión</label>
-					<input type="radio" name="informe" id="Enviado">
+					<input type="radio" name="informe" id="Enviado" checked="">
 					<label for="Enviado"><abbr title="enviado el 17/07" >Enviado</abbr></label><br>
 
 					<h1 id="eti"><b>Monitor Empresas</b></h1><br>
@@ -31,7 +31,7 @@
 
 				<input type="radio" name="Empresas" id="Pendiente1">
 				<label for="Pendiente1">Pendiente</label>
-				<input type="radio" name="Empresas" id="En Revisión1">
+				<input type="radio" name="Empresas" id="En Revisión1" checked="">
 				<label for="En Revisión1">En Revisión</label>
 				<input type="radio" name="Empresas" id="Enviado1"  >
 				<label for="Enviado1">Enviado</label><br>
@@ -45,7 +45,7 @@
 				<label for="Pendiente2">Pendiente</label>
 				<input type="radio" name="BaseCaja" id="En Revisión2" >
 				<label for="En Revisión2">En Revisión</label>
-				<input type="radio" name="BaseCaja" id="Enviado2" >
+				<input type="radio" name="BaseCaja" id="Enviado2" checked="" >
 				<label for="Enviado2">Enviado</label><br>
 
 
@@ -54,7 +54,7 @@
 				<label for="Pendiente3">Pendiente</label>
 				<input type="radio" name="GastoCyk" id="En Revisión3">
 				<label for="En Revisión3">En Revisión</label>
-				<input type="radio" name="GastoCyk" id="Enviado3" >
+				<input type="radio" name="GastoCyk" id="Enviado3" checked="" >
 				<label for="Enviado3">Enviado</label><br>
 
 
@@ -63,7 +63,7 @@
 				<label for="Pendiente4">Pendiente</label>
 				<input type="radio" name="reca" id="En Revisión4">
 				<label for="En Revisión4">En Revisión</label>
-				<input type="radio" name="reca" id="Enviado4">
+				<input type="radio" name="reca" id="Enviado4" checked="">
 				<label for="Enviado4">Enviado</label><br>
 				
 
@@ -72,7 +72,7 @@
 				<label for="Pendiente5">Pendiente</label>
 				<input type="radio" name="Prov" id="En Revisión5" >
 				<label for="En Revisión5">En Revisión</label>
-				<input type="radio" name="Prov" id="Enviado5" >
+				<input type="radio" name="Prov" id="Enviado5" checked="">
 				<label for="Enviado5">Enviado</label><br>	
 
 
@@ -82,13 +82,16 @@
 				<input type="radio" name="Pers" id="En Revisión6">
 				<label for="En Revisión6">En Revisión</label>
 				<input type="radio" name="Pers" id="Enviado6" checked="" >
-				<label for="Enviado6">Enviado</label><br><br>	
+				<label for="Enviado6">Enviado</label><br>
+				<p>Nota(*): El monitor se realiza de forma cuatrimestral, último monitor enviado fuel al 1er Cuatrimestre 2022</p>
+
+				<br>	
 
 
 			</div>
 			
-			<div class="Checkboxdiv" >
-				<h2>Novedades:</h2><br><br>
+			<div class="Checkboxdiv" style="background-color: white; float: auto;" >
+				<h2 style="padding: 12px">Novedades:</h2>
 
 				<!--<label>07/07     </label><label>IPI    </label><label><input type="Checkbox">Enviado</label><br>
 				<label>07/07     </label><label>ISAC   </label><label><input type="Checkbox">Enviado</label><br>-->
@@ -102,38 +105,44 @@
 					<tr>
 						<td style="text-align: left;"> Indice de Producción Industrial  </td>
 						<td>7/7</td>
-						<td><label>Enviado</label><input type="Checkbox" name="btn"></td>
+						<td><label>Enviado</label><input type="Checkbox" name="btn" checked=""></td>
 
 					</tr>
 					<tr>
 						<td style="text-align: left;"> Indicador Sintético de la Actividad de la Construcción  </td>
 						<td>7/7</td>
-						<td><input type="Checkbox" name="btn"></td>
+						<td><label>Enviado</label><input type="Checkbox" name="btn" checked=""></td>
 
 					</tr>
 					<tr>
 						<td style="text-align: left;"> Indice de Precios al Consumidor  </td>
 						<td>14/07</td>
-						<td><input type="Checkbox" name="btn"></td>
+						<td><label>Enviado</label><input type="Checkbox" name="btn" checked=""></td>
 
 					</tr>
 
 					<tr>
 						<td style="text-align: left;"> Sistema de Precios Mayoristas  </td>
 						<td>19/07</td>
-						<td><input type="Checkbox" name="btn"></td>
+						<td><label>Enviado</label><input type="Checkbox" name="btn" checked=""></td>
 
 					</tr>
 					<tr>
 						<td style="text-align: left;"> Estimador Mensual de la Actividad Económica  </td>
 						<td>20/07</td>
-						<td><input type="Checkbox" name="btn"></td>
+						<td><label>Enviado</label><input type="Checkbox" name="btn" checked=""></td>
 
 					</tr>
 					<tr>
 						<td style="text-align: left;"> Intercambio Comercial Argentino  </td>
 						<td>20/07</td>
-						<td><input type="Checkbox" name="btn"></td>
+						<td><label>Enviado</label><input type="Checkbox" name="btn" checked=""></td>
+
+					</tr>
+					<tr>
+						<td style="text-align: left;"> Indice de Salarios  </td>
+						<td>29/07</td>
+						<td><label>Enviado</label><input type="Checkbox" name="btn" ></td>
 
 					</tr>
 				</table>
@@ -143,7 +152,6 @@
 		</form>
 		
 	</div>
-<p>Nota(*): El monitor se realiza de forma cuatrimestral, último enviado fuel al primer cuatrimestre de 2022</p>
 	
 
 </body>

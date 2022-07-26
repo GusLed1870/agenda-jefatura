@@ -1,8 +1,14 @@
 
+*{
+    padding: 0px;
+    margin: 5px;
+    font-family: Century Gothic;
+}
+
 
 
 body{
-    background-color: white;   
+    background-color: #fff;   
     margin-left: 20px;
     color: black;
     font-family: sans-serif;
@@ -12,6 +18,10 @@ h2{
 
     color: deepskyblue;
 
+}
+
+p{
+    font-size: 15px;
 }
 
 h1{
@@ -80,28 +90,25 @@ display: none;
     display: inline-block;
     border-radius: 8px;
     padding: 5px 15px;
-    position: relative;
+    /*position: relative;*/
 }
 
-.formulario{
-display: flex;
-
-
-}
 
 
 
 .Checkboxdiv{
     border-color: red; 
-    margin-left: 150px;
+    margin-left: 10px;
 }
 
 #tabla1{
 
     border-collapse: collapse;
-    width: 106%;
+    width: auto;
     text-align: center;
-
+    display: flex;
+    flex: 1;
+    min-width: 250px;
     /*darle formato a toda la tabla*/
 }
 
@@ -109,13 +116,14 @@ display: flex;
     border: 1px solid #ddd;
     padding-top: 15px;
     padding-bottom: 15px;
-
+    paddind-left: 2px;
     /*darle borde a la tabla*/
 
 } 
 
 #tabla1 tr:nth-child(even){
     background-color: #f2f2f2
+
     /*Para darle color de fondo cada un salto de linea*/
 }
 
@@ -129,4 +137,5 @@ display: flex;
     padding-bottom: 14px;
     background-color: rgba(124, 198, 206,0.2);
     color: darkslategrey;
+    font-size: 20px;
 }
