@@ -89,7 +89,9 @@ display: flex;
 
 }
 
-
+p{
+    font-size: 10px;
+}
 
 .Checkboxdiv{
     border-color: red; 
