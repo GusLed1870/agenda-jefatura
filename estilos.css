@@ -9,7 +9,7 @@
 
 body{
     background-color: #fff;   
-    margin-left: 20px;
+    margin-left: 0px;
     color: black;
     font-family: sans-serif;
 }
@@ -27,6 +27,7 @@ p{
 h1{
     color: black;
     display: inline-block;
+    font-size: 15px;
 }
 
 
