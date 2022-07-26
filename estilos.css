@@ -1,0 +1,132 @@
+
+
+
+body{
+    background-color: white;   
+    margin-left: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+
+h2{
+
+    color: deepskyblue;
+
+}
+
+h1{
+    color: black;
+}
+
+
+.formulario input[type="radio"]{
+display: none;
+
+}
+
+.formulario .radio label{
+    color: #0074D9;
+    /*background: rgba(0, 0, 0, .1);*/
+    padding: 5px 15px 5px 51px;
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-trasition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.formulario .radio label:hover {
+background: rgba(0, 116, 217,0.2);
+
+}
+
+.formulario .radio label:before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background: none;
+    border: 3px solid #0074D9;
+    border-radius: 50%;
+    position: absolute;
+    left: 17px;
+    top: 2px;
+
+}
+
+.formulario input[type="radio"]:checked + label{
+
+    padding: 5px 15px;
+    background: #0074D9;
+    border-radius: 2px;
+    color: white;
+    /*border: 3px solid #0074D9*/
+}
+.formulario input[type="radio"]:checked + label:before{
+display: none;
+
+}
+
+
+#eti {
+
+    color: darkslategrey;
+    font-size: 20px ;
+    background:  rgba(124, 198, 206,0.2);
+    cursor: auto;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px 15px;
+    position: relative;
+}
+
+.formulario{
+display: flex;
+
+
+}
+
+
+
+.Checkboxdiv{
+    border-color: red; 
+    margin-left: 150px;
+}
+
+#tabla1{
+
+    border-collapse: collapse;
+    width: 106%;
+    text-align: center;
+
+    /*darle formato a toda la tabla*/
+}
+
+#tabla1 td, #tabla1 th{
+    border: 1px solid #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    /*darle borde a la tabla*/
+
+} 
+
+#tabla1 tr:nth-child(even){
+    background-color: #f2f2f2
+    /*Para darle color de fondo cada un salto de linea*/
+}
+
+
+#tabla1 tr:hover{
+    background-color: #ddd
+}
+
+#tabla1 th{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: rgba(124, 198, 206,0.2);
+    color: darkslategrey;
+}
